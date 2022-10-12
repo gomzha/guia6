@@ -1,0 +1,8 @@
+crear repositorio remoto en github, ahí te sale los comandos del segundo cuadro:
+inicializar carpeta
+git init
+gestionar el remoto a la ruta
+git remote a la ruta
+git add .
+git commit -m "primer commit"
+git push -u origin main

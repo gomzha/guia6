@@ -30,7 +30,9 @@ public class Guia6_extra_12 {
 
         for(int i = 0 ; i< 1000; i++){
             numText = String.format("%0" + 3 +"d", i).replace("3", "E");
-            System.out.println(numText.charAt(0) + "-" + numText.charAt(1) + "-" + numText.charAt(2));
+            System.out.println(numText.charAt(0) + "--" + numText.charAt(1) + "--" + numText.charAt(2));
+            
+            
         }
     }
 }

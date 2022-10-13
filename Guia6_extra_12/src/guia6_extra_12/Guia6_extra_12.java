@@ -23,11 +23,14 @@ Nota: investigar función equals() y como convertir números a String.
  */
 public class Guia6_extra_12 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        String numText;
+
+
+        for(int i = 0 ; i< 1000; i++){
+            numText = String.format("%0" + 3 +"d", i).replace("3", "E");
+            System.out.println(numText.charAt(0) + "-" + numText.charAt(1) + "-" + numText.charAt(2));
+        }
     }
-    
 }
